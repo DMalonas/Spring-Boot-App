@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: dmalonas
+      changes:
+        - addColumn:
+            tableName: weather
+            columns:
+              - column:
+                  name: ip
+                  type: varchar(50)
+              - column:
+                  name: timeStamp
+                  type: TIMESTAMP
+        - dropColumn:
+            tableName: weather
+            columns:
+              - column:
+                  name: seaLevel

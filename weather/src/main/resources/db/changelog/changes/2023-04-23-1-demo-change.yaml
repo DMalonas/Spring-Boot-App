@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: myname
+      changes:
+        - createTable:
+            tableName: mytable
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: varchar(255)
+              - column:
+                  name: email
+                  type: varchar(255)
+#create the liquibase changeset for the table just like above
+#then you create jpa entity class that corresponds to the table
+#then create a pring data jpa repository for your entity class
+#then you can use the jpa repository in my services

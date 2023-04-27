@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 23 Apr 2023 01:37:39 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 23 Apr 2023 02:37:39 GMT
+Location: http://freegeoip.net/shutdown
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dvHHJcpU%2FCLr%2BrgOPPsSEoLnK27y3UHaCoV9DCsOyCY605Govs5ISkkvAQRGFD%2Fc6ZpOhG1Uf2IbXv16dvf%2FHsBYeoOBHC2tF%2B2bzPb%2F7CKw4rGozPo8ad0G%2BYZImviyvthvmjkTGrkEYeo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7bc261eb5ef46f41-ATH
+
